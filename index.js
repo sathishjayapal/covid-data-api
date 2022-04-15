@@ -1,7 +1,7 @@
 const express = require('express')
 const req = require('express/lib/request')
 const app = express()
-const port = process.env.PORT || 8081
+const port = process.env.PORT || 8080
 
 // Get COVID data in memory
 // This entire JSON file (over 100MB) is read into memory.  This would be

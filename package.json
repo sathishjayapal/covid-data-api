@@ -7,7 +7,7 @@
     "postinstall": "curl https://covid.ourworldindata.org/data/owid-covid-data.json --output data.json",
     "start": "node index.js",
     "docker:build": "docker build . -t covid-data-api",
-    "docker:run": "docker run -p 8081:8081 --name covid-data-apiv1 -d covid-data-api",
+    "docker:run": "docker run -p 8080:8080 --name covid-data-apiv1 -d covid-data-api",
     "docker:kill": "docker kill covid-data-api"
   },
   "keywords": [],
